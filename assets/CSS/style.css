@@ -1,0 +1,136 @@
+/*Cores - va - Variaveis*/
+:root{
+    /*chamada para ação*/
+    /* -- = conversão */
+    --cta: #00804b;
+    
+    --white1: #FFFFFF;
+    
+    --black1: #0E0E0E;
+    --black2: #121212;
+
+    --border-cta: 50px;
+
+    --grey: #EFEFEF;
+}
+
+/*font roboto para todo html*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*rolagem da página suave*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*cabeçalho*/
+header{
+    position: fixed;
+    width: 100%;
+    padding: 30px 200px;
+    background: var(--black1);
+    color: var(--white1);
+}
+
+nav{
+    display: flex;
+    /*Organizando os filhos do pai*/
+    justify-content: space-between;
+    /* alinhar itens filhos no centro */
+    align-items: center;
+}
+
+/*Acessando as div do nav*/
+nav > div {
+    /*Tratar flexivel*/
+    display: flex;
+    /* Espaçamento entre elementos - filhos e pai*/
+    gap: 20px;
+}
+
+/* Editando nav a - Menu */
+.nav-a {
+    font-size: 17px;
+}
+
+/* Editando nav button - Botaão do menu */
+.nav-button {
+    /* cor do botão */
+    background: var(--cta);
+    /* cor do nome 'contact' */
+    color: var(--white1);
+    /* espaços */
+    padding: 10px 20px;
+    /* tipo da fonte */
+    font-weight: 700;
+    /* tamanho da fonte */
+    font-size: 18px;
+    /* Bordas aredondadas do botão */
+    border-radius: var(--border-cta);
+}
+
+/* Seção Home */
+#home {
+    display: flex;
+    align-items: center;
+    padding: 120px 200px 100px 200px;
+    background: linear-gradient(287.52deg, var(--black1) 76.11%, var(--cta) 85.11%);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home-div-img {
+    border-radius: 150px 15px;
+    background: var(--black1);
+}
+
+.home-div-names {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--white1);
+    text-align: end;
+}
+
+.names-text {
+    display: flex;
+    /* organizando os filhos um acima do outro - colunas */
+    flex-direction: column;
+    /* espaçamento */
+    gap: 20px;
+}
+
+.home-p {
+    font-size: 34px;
+    /* espaçamento entre linhas e palavras */
+    line-height: 50px;
+}
+
+.profissao {
+    font-size: 20px;
+    color: var(--grey);
+}
+
+/* atribui cor do span que esta dentro da classe */
+.home-p > span {
+    font-size: 50px;
+    color: var(--cta);
+}
+
+.home-button {
+    background: var(--cta);
+    border-radius: var(--border-cta);
+    font-size: 24px;
+    padding: 15px 30px;
+    color: var(--black2);
+    gap: 10px;
+}
+
+/* cor do botao ao passar o mouse em cima */
+/* .home-button:hover{
+    background: var(--grey)
+} */
