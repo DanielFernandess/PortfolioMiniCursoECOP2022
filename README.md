@@ -1,7 +1,5 @@
 # Portfólio - Mini Curso ECOP2022
  
- -- EM ATUALIZAÇÃO --
- 
 # Sobre
 
 Mini Curso ministrado por: [Emanoel Brunio](https://github.com/emanoelbrunio "GitHub Emanoel Brunio") e [Lucas Matheus](https://github.com/LucasMatheus12 "GitHub Lucas Matheus")
