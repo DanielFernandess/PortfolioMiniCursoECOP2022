@@ -4,7 +4,7 @@
 
 Mini Curso ministrado por: [Emanoel Brunio](https://github.com/emanoelbrunio "GitHub Emanoel Brunio") e [Lucas Matheus](https://github.com/LucasMatheus12 "GitHub Lucas Matheus")
  
-Tema: Desenvolvimento Web - Criando Seu Portfólio
+Tema: Desenvolvimento Web - Criando Seu Portfólio.
 
 # Tecnologias utilizadas
 ## Back end & Front end
